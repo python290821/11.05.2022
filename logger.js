@@ -10,7 +10,7 @@ const logConfiguration =  {
     ),
     'transports': [
         // save to console
-        new transports.Console({ level: 'debug' }),
+        new transports.Console({ level: 'info' }),
         new transports.File({ filename: 'exmaple.log', level: 'debug' })
     ]
 }

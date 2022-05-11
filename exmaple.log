@@ -1,48 +1,60 @@
 {
-  message: 'Hello Winston!',
-  level: 'info',
-  label: 'right meow!',
-  timestamp: '2022-05-11T16:05:57.378Z'
-}
-{
-  message: 'Hello Winston !',
-  level: 'info',
-  label: 'right meow!',
-  timestamp: '2022-05-11T16:05:57.384Z'
-}
-{
-  message: 'Hello Winston!',
+  message: '====== System startup ========',
   level: 'info',
   label: 'main module',
-  timestamp: '2022-05-11T16:07:10.648Z'
+  timestamp: '2022-05-11T17:43:47.511Z'
 }
 {
-  message: 'Hello Winston !',
-  level: 'info',
-  label: 'main module',
-  timestamp: '2022-05-11T16:07:10.654Z'
-}
-{
-  message: 'Hello Winston!',
-  level: 'info',
-  label: 'main module',
-  timestamp: '2022-05-11T16:10:49.556Z'
-}
-{
-  message: 'Hello Winston !',
-  level: 'info',
-  label: 'main module',
-  timestamp: '2022-05-11T16:10:49.559Z'
-}
-{
-  message: 'do you see me?',
+  message: '====== System startup ========',
   level: 'debug',
   label: 'main module',
-  timestamp: '2022-05-11T16:10:49.559Z'
+  timestamp: '2022-05-11T17:44:37.307Z'
 }
 {
-  message: 'hello!',
-  level: 'info',
+  message: '====== System startup ========',
+  level: 'debug',
   label: 'main module',
-  timestamp: '2022-05-11T17:34:15.483Z'
+  timestamp: '2022-05-11T17:44:57.758Z'
+}
+{
+  message: '====== System startup ========',
+  level: 'debug',
+  label: 'main module',
+  timestamp: '2022-05-11T17:45:11.666Z'
+}
+{
+  message: '====== System startup ========',
+  level: 'debug',
+  label: 'main module',
+  timestamp: '2022-05-11T17:45:27.192Z'
+}
+{
+  message: '====== System startup ========',
+  level: 'debug',
+  label: 'main module',
+  timestamp: '2022-05-11T17:45:45.016Z'
+}
+{
+  message: 'cannot connect to db. Error: Error: SQLITE_CANTOPEN: unable to open database file',
+  level: 'error',
+  label: 'main module',
+  timestamp: '2022-05-11T17:45:45.022Z'
+}
+{
+  message: '====== System startup ========',
+  level: 'debug',
+  label: 'main module',
+  timestamp: '2022-05-11T17:49:41.788Z'
+}
+{
+  message: 'cannot connect to db. Error: null',
+  level: 'error',
+  label: 'main module',
+  timestamp: '2022-05-11T17:49:41.797Z'
+}
+{
+  message: '====== System startup ========',
+  level: 'debug',
+  label: 'main module',
+  timestamp: '2022-05-11T17:49:55.929Z'
 }
