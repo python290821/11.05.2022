@@ -40,3 +40,9 @@
   label: 'main module',
   timestamp: '2022-05-11T16:10:49.559Z'
 }
+{
+  message: 'hello!',
+  level: 'info',
+  label: 'main module',
+  timestamp: '2022-05-11T17:34:15.483Z'
+}
