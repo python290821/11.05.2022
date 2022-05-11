@@ -9,15 +9,15 @@ const db = new sqlite3.Database('db1.db', err => {
         logger.error(`cannot connect to db. Error: ${err}`)
         return;
     }
-    console.log('Connected ....')
-    db.serialize( () => {
-        db.each(`SELECT * FROM PRODUCTS`, (_err, row) => {
-            if (_err) {
-                logger.error(`cannot connect to db. Error: ${err}`)
-                return;
-            }            
-            console.table(row)
-        })
+    console.log('Connected ....')  
+})
+db.serialize( () => {
+    db.each(`SELECT * FROM PRODUCTS`, (_err, row) => {
+        if (_err) {
+            logger.error(`cannot connect to db. Error: ${err}`)
+            return;
+        }            
+        console.table(row)
     })
 })
 db.close((err) => {
