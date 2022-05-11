@@ -1,0 +1,12 @@
+{
+  message: 'Hello Winston!',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2022-05-11T16:05:57.378Z'
+}
+{
+  message: 'Hello Winston !',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2022-05-11T16:05:57.384Z'
+}
