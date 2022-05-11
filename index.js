@@ -9,14 +9,14 @@ const { x, y, z } = a;
 
 const logConfiguration =  {
     format: combine(
-        label({label: 'right meow!'}),
+        label({label: 'main module'}),
         timestamp(),
         prettyPrint()
     ),
     'transports': [
         // save to console
-        new transports.Console(),
-        new transports.File({ filename: 'exmaple.log' })
+        new transports.Console( {level: 'error'} ),
+        new transports.File({ filename: 'exmaple.log', level: 'debug' })
     ]
 }
 

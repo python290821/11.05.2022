@@ -10,3 +10,33 @@
   label: 'right meow!',
   timestamp: '2022-05-11T16:05:57.384Z'
 }
+{
+  message: 'Hello Winston!',
+  level: 'info',
+  label: 'main module',
+  timestamp: '2022-05-11T16:07:10.648Z'
+}
+{
+  message: 'Hello Winston !',
+  level: 'info',
+  label: 'main module',
+  timestamp: '2022-05-11T16:07:10.654Z'
+}
+{
+  message: 'Hello Winston!',
+  level: 'info',
+  label: 'main module',
+  timestamp: '2022-05-11T16:10:49.556Z'
+}
+{
+  message: 'Hello Winston !',
+  level: 'info',
+  label: 'main module',
+  timestamp: '2022-05-11T16:10:49.559Z'
+}
+{
+  message: 'do you see me?',
+  level: 'debug',
+  label: 'main module',
+  timestamp: '2022-05-11T16:10:49.559Z'
+}
